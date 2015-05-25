@@ -1,6 +1,6 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "username.github.io" # the base hostname & protocol for your site.
-title: "username-blog"
+url: "syberpunkq.github.io" # the base hostname & protocol for your site.
+title: "syberpunkq-blog"
 
 
 paginate: 3 #articles per page
@@ -8,9 +8,9 @@ paginate_path: /blog/page:num #makes pagination working
 
 
 #contacts
-git: "https://github.com/railsr"  #Add your github url here.
-stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
-twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
+git: "https://github.com/syberpunkq"  #Add your github url here.
+stackoverflow: "http://stackoverflow.com/users/4464885/syberpunkq" #Add your stackoverflow url here.
+twitter: "https://twitter.com/"  #Add your twitter url here.
 
 #disqus comment
 disqus:
