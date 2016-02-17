@@ -1,5 +1,6 @@
 ---
-published: false
+title: "Первичная настройка debian 8 сервера"
+tags: [debian, linux]
 ---
 
 ## Первичная настройка debian 8 сервера
