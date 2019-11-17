@@ -1,54 +1,30 @@
-# Autm-rb
+# Hydejack Starter Kit
 
-Another theme for jekyll.
-based on shiori and midnight
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-##[DEMO][demo]
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. Run `bundle install` [^1]
+4. Run `bundle exec jekyll serve`
+5. Open <http://localhost:4000/>
 
-features:
+### GitHub Pages
+1. Fork this repository.
+2. Go to **Settings**, rename repository to `<your github username>.github.io` (without the `<` `>`)
+3. Edit `_config.yml` (you can do this directly on GitHub)
+    1. Change `url` to `https://<your github username>.github.io` (without the `<` `>`)
+    2. Change `baseurl` to `''` (empty string)
+    3. **Commit changes**.
+4. Go to **Settings** again, look for **GitHub Pages**, set **Source** to **master branch**.
+5. Click **Save** and wait for GitHub to set up your new blag.
 
-- sharebuttons
-- comments via DISQUS
-- google analitics
-- pagination
-- tags
-- codehighlighting
-- bootstrap components
-- font awesome
-- responsive
-- embeded video support
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
-#### Contribution
-Pull Requests always welcome.
+[^1]: Requires Bundler. Install with `gem install bundler`.
 
-## Screens
-
-![](http://i.imgur.com/i1OZoFF.png)
-![](http://i.imgur.com/oc2ZfjH.png)
-
-## Installation
-
-- [Fork this repository][fork]
-- Clone it: `git clone https://github.com/YOUR-USER/autm-rb`
-- Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
-- Run the jekyll server: `jekyll serve` or `bundle exec jekyll serve`
-
-## Customization
-
-Edit this files before using 
- 
-- _config.yml REQUIRED
-- /index.html - change the default image and email
-- /projects.html - here you can share some of your projects
-- /resume.html - write something about you
-- /favicon.ico change it or leave the existing one
-- _includes/title.html REQUIRED
-
-## Licensing
-
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit.
-
-
-[pages]: http://pages.github.com
-[fork]: https://github.com/railsr/autm-rb/fork
-[demo]: http://railsr.github.io/autm-rb/
+[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
